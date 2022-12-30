@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image</title>
+</head>
+<body>
+
+    <img src="https://images.pexels.com/photos/11719056/pexels-photo-11719056.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="no image" width="400px">
+
+<!-- 
+    <img src="./butterfly_PNG1053.png" alt="no image" width="400px"> -->
+<!-- 
+    <picture>
+        <source media="(min-width: 650px)" srcset="./butterfly_PNG1053.png" />
+        <source media="(min-width: 450px)" srcset="./butterfly_PNG10531.png" />
+        <img src="./butterfly_PNG1053.png" alt="no image" width="400px">
+    </picture> -->
+
+
+
+    <!-- an image map generator -->
+    <img src="butterfly_PNG1053.png" usemap="#image-map">
+
+    <map name="image-map">
+        <area onclick="one()" target="" alt="" title="" href="" coords="1103,665,1214,747" shape="rect">
+        <area onclick="two()" target="" alt="" title="" href="" coords="1124,1017,1231,1126" shape="rect">
+    </map>
+
+    <script>
+        function one(){
+            alert("YOu clicked on one")
+        }
+
+        function two(){
+            alert("YOu clicked on two")
+        }
+    </script>
+
+</body>
+</html>

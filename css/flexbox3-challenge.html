@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox3-callenge</title>
+
+    <style>
+
+        *{
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        .flex-container {
+            display: flex;
+            flex-direction: row;
+            align-items: stretch;
+        }
+
+        #nav {
+            background-color: rgba(133, 238, 133, 0.747);
+            width: 25%;
+        }
+
+        #right-container{
+            width: 75%;
+        }
+
+        .flex-container-child {
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+        }
+
+       #header {
+        height: 100px;
+        width: 100%;
+        background-color: #00ffff98;
+       }
+
+       #article {
+        height: 475px;
+        width: 100%;
+        background-color: #fff;
+       }
+
+       #footer {
+        height: 100px;
+        width: 100%;
+        background-color: #00ffff98;
+       }
+
+       body div div h4, body div div div div {
+        padding: 20px;
+        font-weight: bold;
+        font-size: xx-large;
+       }
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="flex-item" id="nav">
+            <h4>Nav</h4>
+        </div>
+        <div class="flex-item" id="right-container">
+            <div class="flex-container-child">
+                <div class="flex-item-child" id="header">Header</div>
+                <div class="flex-item-child" id="article">Article</div>
+                <div class="flex-item-child" id="footer">Footer</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

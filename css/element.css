@@ -1,0 +1,49 @@
+/* p{
+    color: green;
+}
+
+li {
+    list-style-type: square;
+}
+
+.special{
+    color:orange;
+    font-weight: bold;
+} */
+
+/* tagName dot(.) className */
+li.special, 
+span.special{
+    color: orange;
+    font-weight: bold;
+}
+
+/* decendant combinator selector */
+li em{
+    color: rebeccapurple;
+}
+
+/* pseudo class selector */
+a:hover{
+    color: brown;
+    text-decoration: none;
+}
+
+/* decendant combinator selector */
+body h1+p .special{
+    background-color: black;
+    padding: 5px;
+}
+
+#heading{
+    color: rgb(194, 243, 78);
+}
+
+/* attribute selector */
+li[class]{
+    color: chartreuse;
+}
+
+li[class~=a]{
+    color: deeppink;
+}

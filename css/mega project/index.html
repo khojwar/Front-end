@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mega Project</title>
+
+    <!-- favicon.io bata copy gareko (browser ko tab maa ico image hunxa tesai ko laagi ho)  -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <div class="banner"></div>
+    </header>
+
+    <nav>
+        <a class="menu-btn" href="#">Home</a>
+        <a class="menu-btn" href="#">College Reviews</a>
+        <a class="menu-btn" href="#">Cources</a>
+        <a class="menu-btn" href="#">Study Materials</a>
+        <a class="flex-align-right menu-btn" href="#">Login/SignUp</a>
+    </nav>
+
+    <main>
+        <Section>
+            <h3><span>Cources</span></h3>
+            <!-- Flickity HTML init -->
+            <div class="carousel" data-flickity>
+                <div class="carousel-cell"><video class="video-responsive" src="./video/videoplayback.mp4" controls></video></div>
+                <div class="carousel-cell"><video class="video-responsive" src="./video/videoplayback.mp4" controls ></video></div>
+                <div class="carousel-cell"><video class="video-responsive" src="./video/videoplayback.mp4" controls></video></div>
+                <div class="carousel-cell"><video class="video-responsive" src="./video/videoplayback.mp4" controls></video></div>
+                <div class="carousel-cell"><video class="video-responsive" src="./video/videoplayback.mp4" controls ></video></div>
+                <div class="carousel-cell"><video class="video-responsive" src="./video/videoplayback.mp4" controls></video></div>
+            </div>
+        </Section>
+
+        <Section>
+            <h3><span>College Reviews</span> </h3>
+            <div class="carousel" data-flickity>
+                <div class="iframe-container carousel-cell"><iframe  src="https://www.youtube.com/embed/IZa8pbR8CWs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                <div class="iframe-container carousel-cell"><iframe  src="https://www.youtube.com/embed/IZa8pbR8CWs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                <div class="iframe-container carousel-cell"><iframe  src="https://www.youtube.com/embed/IZa8pbR8CWs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            </div>
+        </Section>
+
+        <section>
+            <h3><span>Study Materials</span></h3>
+            <div class="carousel" data-flickity>
+                <div class="carousel-cell"><a href="./notes/final presentation - seminar and presentation.pdf" target="_blank" rel="noopener noreferrer"><img src="./img/cat.jpg" alt="" width="24%" height="85%"></a></div>
+                <div class="carousel-cell"><a href="./notes/final presentation - seminar and presentation.pdf" target="_blank" rel="noopener noreferrer"><img src="./img/butterfly_PNG1053.png" alt="" width="24%" height="85%"></a></div>
+                <div class="carousel-cell"><a href="./notes/final presentation - seminar and presentation.pdf" target="_blank"><img src="./img/car.jpg" alt="" width="24%" height="85%"></a></div>
+                <div class="carousel-cell"><a href="./notes/final presentation - seminar and presentation.pdf" target="_blank" rel="noopener noreferrer"><img src="./img/cat.jpg" alt="" width="24%" height="85%"></a></div>
+            </div> 
+        </section>
+
+        <section>
+            <h3><span>Our Founder</span></h3>
+            <img src="./img/user.png" alt="" width="25%">
+            <h4 class="profile-name">Tika Ram Khojwar</h4>
+
+            <div class="sm-handle">
+                <a href="https://www.youtube.com/" class="yt-handle"> <i class="yt-handle  fa fa-youtube fa-lg" ></i> YouTube</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+                <a href="https://www.instagram.com/" class="insta-handle"> <i class="insta-handle fa fa-instagram fa-lg"></i> Instagram</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                <a href="https://www.facebook.com/" class="fb-handle"> <i class="fb-handle fa fa-facebook fa-lg"></i> Facebook</a>
+            </div>
+
+            <p><strong>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt, quo? </strong></p>
+
+            <p class="justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos blanditiis odio obcaecati rerum et officia culpa! Ex cupiditate maiores ea veniam. Perferendis, eum? Saepe natus at, beatae facilis architecto unde magni minus possimus doloremque quas eius repudiandae recusandae similique provident delectus laudantium modi? Obcaecati reprehenderit nesciunt, quasi perferendis vero maxime!</p>
+        </section>
+
+        <footer>
+            <a href="#">FAQ</a>
+            <a href="#">Contact Us</a>
+            <a href="#">Terms of Use</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Refund Policy</a>
+            <a class="copyright flex-align-right" href="#">&copy; 2022 | apni Kakshya </a>
+        </footer>
+    </main>
+
+    <!-- JavaScript -->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+</body>
+</html>

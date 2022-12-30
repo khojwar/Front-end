@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table{
+            width: 100%;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #a09e9e;
+        }
+    </style>
+</head>
+<body>
+    <!-- table banaauda lekhne tarika "table>tr>th" -->
+    <table>
+        <tr>
+            <th>Country</th>
+            <th>Country code</th>
+            <th>email</th>
+        </tr>
+
+        <tr>
+            <td>Nepal</td>
+            <td>Nep</td>
+            <td>nepal@google.com</td>
+        </tr>
+        <tr>
+            <td>India</td>
+            <td>IN</td>
+            <td>india@google.com</td>
+        </tr>
+        <tr>
+            <td>United Stated</td>
+            <td>Us</td>
+            <td>us@google.com</td>
+        </tr>
+    </table>
+
+    <br>
+    <table>
+        <tr>
+            <th colspan="3">Country</th>
+            <td>Nepal</td>
+            <td>India</td> 
+        </tr>
+        <tr>
+            <th>Code</th>
+            <td>Nep</td>
+            <td>IN</td>
+        </tr>
+    </table>
+</body>
+</html>
