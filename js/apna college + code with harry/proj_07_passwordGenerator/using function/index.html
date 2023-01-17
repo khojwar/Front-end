@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password generator</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <div class="container">
+            <h1 class="headtxt">Password Generator</h1>
+        </div>
+    </header>
+
+    <main>
+        <section class="container main-sec">
+            <div class="getTxt">
+                <p name="" id="getText" style="text-align: center; padding-block: 20px;">|</p>
+            </div>
+            
+            <div class="btn-set">
+                <input class="btn" id="btn1" type="button" value="Generate Funny Password" onclick="funnyPassword()">
+                <input class="btn" id="btn2" type="button" value="Generate Weak Password" onclick="weakPassword()">
+                <input class="btn" id="btn3" type="button" value="Generate Strong Password" onclick="strongPassword()">
+                <input class="btn" id="btn4" type="button" value="Generate Super Strong Password" onclick="superStrongPassword()">
+            </div>
+            
+        </section>
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

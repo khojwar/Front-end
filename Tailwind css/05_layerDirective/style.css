@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* component layer ko tatkaal paxadi .btn class bnaxa  .css file maa*/
+@layer components {
+    .btn {
+        @apply text-white bg-yellow-400 hover:bg-yellow-500 focus:outline-none focus:ring-4 focus:ring-yellow-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:focus:ring-yellow-900
+    }  
+}
+
+
+/* utilities layer ko tatkaal paxadi .btn class bnaxa .css file maa */
+/* @layer utilities {
+    .btn {
+        @apply text-white bg-yellow-400 hover:bg-yellow-500 focus:outline-none focus:ring-4 focus:ring-yellow-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:focus:ring-yellow-900
+    }  
+} */
+

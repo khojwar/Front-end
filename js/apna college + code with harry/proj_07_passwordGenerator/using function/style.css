@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(1, 1, 70);
+}
+
+.container{
+    padding: 20px;
+}
+
+
+.headtxt {
+    text-align: center;
+    padding-top: 50px;
+    color: #fff;
+}
+
+.main-sec {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    text-align: center;
+    text-align: center;
+    align-items: center;
+}
+
+.getTxt {
+    min-height: 50px;
+    width: 400px;
+    border: 3px solid rgb(255, 255, 255);
+    overflow: scroll;
+    background-color: rgb(116, 116, 116);
+    color: #fff;
+    font-weight: 400;
+    font-size: 30px;
+    border-radius: 15px;
+}
+
+.btn-set {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+
+}
+
+.btn {
+        border: none;
+        background-color: rgb(116, 116, 116);
+        color: white;
+}
+
+.btn:hover {
+    background-color: rgb(75, 74, 74);
+}
+
+
+.btn {
+    padding: 5px;
+    border-radius: 20px;
+}
