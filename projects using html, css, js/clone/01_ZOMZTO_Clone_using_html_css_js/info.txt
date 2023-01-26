@@ -1,0 +1,42 @@
+Zomato ko puraa delivery process laai banaayako xu.
+delivery jaba ordrer garxau tehaadekhi liyara jabasamma food deliver hunxa tehaa samma ko pura process ko logic lekheko xa
+logic haru praaya promise, .catch() and .then() ko madatle lekheko xa
+yo project bata bises garee promise ko concept clear hunxa
+
+
+
+*************What You will learn very well*******************
+
+1. Promises vs callbacks
+2. How to call multiple apis in series vs parallel
+3. promise.all vs promise.allsettled
+4.promise.any vs promise.race
+5.How to actually build logic for a big appl
+
+
+
+
+
+***************order process***********************************
+
+After Order:-
+1. User Add/remove items to cart
+2. Check our cart -> Generate Bill
+3. Apply Coupon -> Select Address + payment way
+4. Complete payment and place order
+
+After Order:-
+1. Order sent to Resturant -> Wait for Resturant Acceptance 
+
+2. Resturant Accepts -> Start Preparing 
+3. Resturant Rejects -> Return payment
+
+4. Start Preparing -> Search for nearby deliver agents
+5. Assign a delivery agent with same delivery path and less distance
+6. Check Have picked up after every 1 min -> Pickup order form Resturant ->
+
+7. If not picked up -> Update estimated time
+8. If picked up -> Get estimated order delivery time from map -> Update time
+
+9. Update delivery location and time after every 1 min to show current location
+10. Order delivered -> Give feedback + rating

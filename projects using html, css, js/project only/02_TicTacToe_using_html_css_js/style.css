@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+/* resets classes */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+
+/* nav  */
+.nac-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-weight: 600;
+    background-color: #116315;
+    color: white;
+    padding-block: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* game body  */
+
+.gameContainer {
+    background-color: rgb(5, 151, 151);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 40px;
+    column-gap: 40px;
+    color:whitesmoke;
+}
+
+
+
+.box-container {
+    display: grid;
+    grid-template-columns: repeat(3, 10vw);
+    grid-template-rows: repeat(3, 10vw);
+    
+}
+
+.boxitem {
+    font-size: 10vw;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxitem:hover {
+    background-color: rgb(1, 66, 66);
+    cursor: pointer;
+}
+
+
+/* right side  */
+
+.right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+h3 {
+    font-size: 2.5rem;
+}
+.imgbox img {
+    border-radius: 5px;
+    width: 0;
+    transition: width 1s ease-in-out;
+}
+
+#reset {
+    background-color: #323232;
+    border-radius: 12px;
+    border: none;
+    padding-inline: 20px;
+    padding-block: 8px;
+    color: whitesmoke;
+    font-weight: 400;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+#reset:hover {
+    background-color: #494949;
+    border-radius: 12px;
+    border: none;
+}
+
+
+/* utilities classes  */
+
+.bt {
+    border-top: 0px;
+}
+.bb {
+    border-bottom: 0px;
+}
+.br {
+    border-right: 0;
+}
+.bl {
+    border-left: 0;
+}
+
+
+
+@media screen and (max-width:800px) {
+    .gameContainer {
+        flex-wrap: wrap;
+        row-gap: 40px;
+    }
+
+    .right {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box-container {
+        grid-template-columns: repeat(3, 20vw);
+        grid-template-rows: repeat(3, 20vw);
+    }
+
+    h3 {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+}

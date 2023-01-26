@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <style>
+        .codefun-gallery{
+            margin-top: 10vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+
+        }
+        .photo{
+            width: 18%;
+            height: 80vh;
+            background-repeat: no-repeat;
+            background-position: center;
+            object-fit: contain;
+            border-radius: 1rem;
+            flex: 1;
+            cursor: pointer;
+            transition: all .8s cubic-bezier(.25, .4, .45, 1);
+        }
+
+        .photo:hover{
+            flex: 5;
+        }
+    </style>
+</head>
+<body>
+    <div class="codefun-gallery">
+        <div class="photo" style="background-image: url(./1.jpg);"></div>
+        <div class="photo" style="background-image: url(./2.jpg);"></div>
+        <div class="photo" style="background-image: url(./3.jpg);"></div>
+        <div class="photo" style="background-image: url(./4.jpg);"></div>
+        <div class="photo" style="background-image: url(./5.jpg);"></div>
+    </div>
+</body>
+</html>

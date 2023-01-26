@@ -1,0 +1,110 @@
+/* resets classes  */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.disclaimer-cont {
+    background-color: red;
+    padding-block: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: white;
+}
+
+.header {
+    height: 80vh;
+}
+.top-header {
+    background-color: green;
+    padding-block: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#currentStatus {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.statuses {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.badge {
+    background-color: rgba(245, 245, 245, 0.151);
+    border: 1px solid rgba(255, 255, 255, 0.603);
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+
+.badge:hover {
+    background-color: rgba(245, 245, 245, 0.329);
+}
+
+.badge:active {
+    background-color: rgba(0, 97, 114, 0.329);
+}
+
+
+.mapview {
+    width: 100%;
+    height: 50vh;
+    overflow: hidden;
+    object-fit: cover;
+    opacity: .5;
+}
+
+
+#driver-details {
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding: 20px;
+    display: flex;
+}
+
+.driver-status {
+    display: inline-flex;
+    column-gap: 20px;
+}
+
+.buttom-header {
+    background-color: green;
+    display: flex;
+    justify-content: flex-start;
+    padding-inline: 20px;
+    padding-block: 23px;
+    gap: 20px;
+}
+
+.btn {
+    background-color: rgba(245, 245, 245, 0.836);
+    border: 1px solid rgba(255, 255, 255, 0.603);
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+
+.btn:hover {
+    background-color: rgb(245, 245, 245);
+}
+
+.btn:active {
+    background-color: rgba(0, 97, 114, 0.329);
+}
+
+.none {
+    display: none;
+}
