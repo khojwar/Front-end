@@ -57,7 +57,21 @@ input {
 
 
 
+
+
 .bg-dark {
     background-color: #333;
     color: white;
+}
+
+.error {
+    background-color: orangered;
+    color: #fff;
+    padding: 5px;
+    margin: 5px;
+}
+
+
+.li-style {
+    list-style: none;
 }
