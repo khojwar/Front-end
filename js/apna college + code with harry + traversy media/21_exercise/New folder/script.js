@@ -11,7 +11,6 @@ response.then((v)=>{
     console.log(citybike.networks);
     ihtml = ""
     for (item in citybike.networks) {
-
         let images = [
             "https://static1.hotcarsimages.com/wordpress/wp-content/uploads/2020/10/Electric-Chopper-Bike.jpg",
             "https://www.pngpix.com/wp-content/uploads/2016/07/PNGPIX-COM-KTM-RC-390-Motorcycle-Bike-PNG-Image.png",
@@ -21,7 +20,6 @@ response.then((v)=>{
         ]
         
         let computerGeneratedNum = Math.floor(Math.random()*5)+1
-
         
         console.log(citybike.networks[item]);
         ihtml += `
