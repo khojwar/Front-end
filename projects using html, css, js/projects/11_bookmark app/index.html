@@ -1,0 +1,73 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Site Bookmarker</title>
+
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+
+  </head>
+  <body onload="fetchBookmarks()">
+    
+    <main>
+      <div class="container col-md-6">
+        <div class="header clearfix py-3">
+          <nav></nav>
+          <h3 class="text-muted">Bookmarker</h3>
+        </div>
+
+        <hr>
+        
+
+        <div class="jumbotron bg-light rounded p-3 text-center">
+          <h2>Bookmarker Your Favorite Sites</h2>
+          <form action="" id="myForm" class="my-3 bg">
+            
+            <div class="form-group">
+              <label for="siteName" class="fw-bolder">Site Name</label>
+              <input type="text" class="form-control" name="" id="siteName" placeholder="Website Name">
+            </div>
+        
+            <div class="form-group mt-3">
+              <label for="siteUrl" class="fw-bolder">Site URL</label>
+              <input type="text" class="form-control" name="" id="siteUrl" placeholder="Website URL">
+            </div>
+
+            <button type="submit" class="btn btn-primary mt-3">Submit</button>
+          </form>
+        </div>
+
+        <div class="row marketing">
+          <div class="col-md-12">
+            <div id="bookmarksResults">
+
+            </div>
+          </div>
+        </div>
+        <hr>
+      
+
+
+        <footer class="footer">
+          &copy; 2022
+        </footer>
+      </div>
+
+    </main>
+
+
+      
+    <script
+      src="https://code.jquery.com/jquery-3.6.3.js"
+      integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
+      crossorigin="anonymous">
+    </script>
+
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
