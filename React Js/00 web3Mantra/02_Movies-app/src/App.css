@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: #282c34;
+  color: white;
 }
 
 .App-logo {
@@ -36,3 +38,32 @@
     transform: rotate(360deg);
   }
 }
+
+h1 {
+  margin: 0;
+}
+
+.header {
+  background-color: darkslategrey;
+  padding-block: 20px;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.movie {
+  background-color: #2f4f4f;
+  border: 1px solid #2f4f4f;
+  border-radius: 20px;
+  padding: 20px;
+  width: 20%;
+  font-weight: bold;
+  text-align: start;
+  margin-block: 20px;
+}
+

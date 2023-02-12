@@ -1,0 +1,1 @@
+in this project, We learn about "jsx", "import/export", "styling component" and "props and its types".
