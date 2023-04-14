@@ -37,10 +37,8 @@
   }
 }
 
-.header {
-  background-color: #282c34;
-  color:  white;
-  font-size: 2rem;
-  font-weight: 700;
-  padding-block: 20px;
+
+
+.avatar {
+  border-radius: 50%;
 }

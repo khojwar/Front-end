@@ -37,10 +37,18 @@
   }
 }
 
+
 .header {
   background-color: #282c34;
-  color:  white;
+  color: white;
+  padding-block: 20px;
   font-size: 2rem;
   font-weight: 700;
-  padding-block: 20px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
