@@ -73,3 +73,4 @@ seatAllotment = "aisle"
 
 
 
+export {}

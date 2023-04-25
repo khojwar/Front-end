@@ -21,3 +21,7 @@ const MLModels: number[][] = [
 superHeros.push("spiderman")
 heroPower.push(2)
 allUsers.push({name: "", isActive: true})
+
+
+
+export {}
